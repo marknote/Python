@@ -35,6 +35,6 @@ def quick_sort(collection: list) -> list:
 
 
 if __name__ == "__main__":
-    user_input = "1,3,6,7,2,4,3,9,2, 3"
+    user_input = "1,3,6,7,2,4,3,9,2, 3,2"
     unsorted = [int(item) for item in user_input.split(",")]
     print(quick_sort(unsorted))
