@@ -132,5 +132,5 @@ def test_gradient_descent():
 
 if __name__ == "__main__":
     run_gradient_descent()
-    print("\nTesting gradient descent for a linear hypothesis function.\n")
+    print("Testing gradient descent for a linear hypothesis function")
     test_gradient_descent()
