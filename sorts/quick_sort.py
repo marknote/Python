@@ -7,7 +7,6 @@ python3 -m doctest -v quick_sort.py
 For manual testing run:
 python3 quick_sort.py
 """
-from __future__ import annotations
 
 
 def quick_sort(collection: list) -> list:
@@ -35,6 +34,6 @@ def quick_sort(collection: list) -> list:
 
 
 if __name__ == "__main__":
-    user_input = input("Enter numbers separated by a comma:\n").strip()
+    user_input = "1,3,6,7,2,4,3,9,2, 3,2"
     unsorted = [int(item) for item in user_input.split(",")]
     print(quick_sort(unsorted))

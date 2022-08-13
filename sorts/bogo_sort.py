@@ -44,6 +44,6 @@ def bogo_sort(collection):
 
 
 if __name__ == "__main__":
-    user_input = input("Enter numbers separated by a comma:\n").strip()
+    user_input = "2,56,78,23,4"
     unsorted = [int(item) for item in user_input.split(",")]
     print(bogo_sort(unsorted))
