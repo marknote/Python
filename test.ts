@@ -3,7 +3,7 @@
 *
 *  Created on Jun 1, 2022. 
 **/
-const code = 'hello';
+const code = 'hello world';
 console.log(code);
 class Person {
   constructor(string name) {
